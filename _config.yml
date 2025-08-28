@@ -1,0 +1,16 @@
+title: "SogoHimo"
+description: "Блог и проекты"
+url: "https://example.com"
+permalink: /:title/
+timezone: Europe/Berlin
+markdown: kramdown
+
+paginate: 3
+paginate_path: "/page:num/"
+
+collections:
+  posts:
+    output: true
+
+plugins:
+  - jekyll-paginate
