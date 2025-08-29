@@ -74,7 +74,7 @@ body {
 .logo-row::before {
   content: "";
   position: absolute;
-  left: 27%;
+  left: 38%;
   right: 0;
   top: calc(50% - var(--logo-bar-h)/2);
   height: var(--logo-bar-h);
@@ -183,11 +183,11 @@ body {
 .credits { justify-self: end; font-size: clamp(12px, 1.4vw, 15px); opacity: .9; }
 
 
-@media (max-width: 480px) {
+@media (min-width: 479px) {
   .logo-row::before {
     content: "";
     position: absolute;
-    left: 32%;
+    left: 38%;
     right: 0;
     top: calc(50% - var(--logo-bar-h)/2);
     height: var(--logo-bar-h);
