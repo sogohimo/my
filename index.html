@@ -9,10 +9,10 @@ paginate: true
   {% for post in posts_list %}
   <article class="card">
     <h2><a href="{{ post.url | relative_url }}" style="text-decoration:none;color:inherit">{{ post.title }}</a></h2>
-    {% if post.excerpt %}
-      <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
-    {% elsif post.description %}
-      <p>{{ post.description }}</p>
+    {% if post.description %}
+      <p>{{ post.description | strip_html | truncatewords: 60 }}</p>
+    {% elsif post.excerpt %}
+      <p>{{ post.excerpt }}</p>
     {% else %}
       <p></p>
     {% endif %}

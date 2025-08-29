@@ -3,11 +3,11 @@ layout: default
 ---
 <section class="cards" style="grid-template-columns: 1fr;">
   <article class="card">
-    <h2>{{ page.title }}</h2>
-        <div class="meta">
-          <span>{{ page.date | date: "%d / %m / %y" }}</span>
-          <a class="read-more" href="{{ '/' | relative_url }}">На главную</a>
-        </div>
+    <div class="upcont">
+      <h2>{{ page.title }}</h2>
+      <span>{{ page.date | date: "%d / %m / %y" }}</span>
+    </div>
+
     {% if page.description %}
       <p>{{ page.description }}</p>
     {% endif %}

@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3"
 group :jekyll_plugins do
   gem "jekyll-paginate"
+  gem "jekyll-sass-converter"
 end
 
 # Если деплоишь на GitHub Pages, вместо верхнего блока можно использовать:

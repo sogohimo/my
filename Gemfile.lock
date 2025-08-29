@@ -161,6 +161,7 @@ DEPENDENCIES
   erb
   jekyll (~> 4.3)
   jekyll-paginate
+  jekyll-sass-converter
   logger
 
 BUNDLED WITH

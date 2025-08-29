@@ -1,8 +1,8 @@
 title: "SogoHimo"
-description: "Блог и проекты"
-url: "https://example.com"
+description: "Блог SogoHimo ни о чем"
+url: "https://sogohimo.github.io"
 permalink: /:title/
-timezone: Europe/Berlin
+timezone: Asia/Yekaterinburg
 markdown: kramdown
 
 paginate: 3
@@ -14,3 +14,4 @@ collections:
 
 plugins:
   - jekyll-paginate
+  - jekyll-sass-converter
